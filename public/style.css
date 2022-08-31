@@ -8,8 +8,8 @@
     --secondary_dark: #AAC0AF;
 
 
-    --primary: var(--primary);
-    --secondary: var(--secondary);
+    --primary: var(--primary_light);
+    --secondary: var(--secondary_light);
 }
 
 *, html {
