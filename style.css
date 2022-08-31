@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+
+:root {
+    --primary_light: #fbd1a2ff;
+}
+
+*, html {
+    margin:0;
+    padding:0;
+}
+
+
+.full_wh {
+    height: 100vh;
+    width: calc(100vw - 2rem);
+    padding-left: 2rem;
+}
+
+#sec_hero {
+    position: relative;
+    background: var(--primary_light);
+}
+
+#hero_text {
+    font-family: "JetBrains Mono", monospace;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#hero_text h1 {
+    font-size: 10rem;
+}
+
+#hero_text h2 {
+    font-size: 2.5rem;
+}
