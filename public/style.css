@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
 
 :root {
-    --primary_light: #fbd1a2ff;
+    --primary_light: #AAC0AF;
+    --secondary_light: #232F26;
+
+    --primary_dark: #232F26;
+    --secondary_dark: #AAC0AF;
+
+
+    --primary: var(--primary_light);
+    --secondary: var(--secondary_light);
 }
 
 *, html {
