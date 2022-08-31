@@ -8,8 +8,8 @@
     --secondary_dark: #AAC0AF;
 
 
-    --primary: var(--primary_light);
-    --secondary: var(--secondary_light);
+    --primary: var(--primary);
+    --secondary: var(--secondary);
 }
 
 *, html {
@@ -26,11 +26,12 @@
 
 #sec_hero {
     position: relative;
-    background: var(--primary_light);
+    background: var(--primary);
 }
 
 #hero_text {
     font-family: "JetBrains Mono", monospace;
+    color: var(--secondary);
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
