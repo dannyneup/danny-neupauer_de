@@ -12,6 +12,14 @@
     --secondary: var(--secondary_light);
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: var(--primary_dark);
+        --secondary: var(--secondary_dark);
+    }
+}
+
+
 *, html {
     margin:0;
     padding:0;
