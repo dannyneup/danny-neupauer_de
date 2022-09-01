@@ -51,6 +51,29 @@
     height: 14rem;
 }
 
+#hero_text h1::after {
+    content: '';
+    background: var(--secondary);
+    width: 15px;
+    height: 14rem;
+    display: inline-block;
+    margin-bottom: -2rem;
+
+    animation: blink-animation 1s steps(2, start) infinite;
+    -webkit-animation: blink-animation 1s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
 #hero_text h2 {
     font-size: max(2.5rem, 50px);
 }
